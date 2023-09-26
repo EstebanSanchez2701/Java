@@ -10,12 +10,12 @@ public class TestProducto {
 		
 		producto1.nombre = "Paracetamol";
 		producto1.descripcion = "Para cualquier tipo de dolor";
-		producto1.precio = 1.50;
+		producto1.precio = 5;
 		producto1.stockActual = 100;
 		
 		producto2.nombre = "Buscapina";
 		producto2.descripcion = "Dolor estomacal";
-		producto2.precio = 0.6;
+		producto2.precio = 6;
 		producto2.stockActual = 70;
 		
 		producto3.nombre = "Lemonflu";
