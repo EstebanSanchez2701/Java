@@ -4,24 +4,24 @@ public class TestProducto {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Producto producto1 = new Producto();
-		Producto producto2 = new Producto();
-		Producto producto3 = new Producto();
+		Producto producto1 = new Producto("Paracetamol",18);
+		Producto producto2 = new Producto("Buscapina", 8);
+		Producto producto3 = new Producto("Lemonflu", 6);
 		
-		producto1.setNombre("Paracetamol");
+		//producto1.setNombre("Paracetamol");
 		producto1.setDescripcion("Para cualquier tipo de dolor");
 		producto1.setPrecio(5);
-		producto1.setStockActual(100);
+		//producto1.setStockActual(100);
 		
-		producto2.setNombre("Buscapina");
+		//producto2.setNombre("Buscapina");
 		producto2.setDescripcion("Dolor estomacal");
 		producto2.setPrecio(6);
-		producto2.setStockActual(70);
+		//producto2.setStockActual(70);
 		
-		producto3.setNombre( "Lemonflu");
+		//producto3.setNombre( "Lemonflu");
 		producto3.setDescripcion( "Antigripal");
 		producto3.setPrecio(1);
-		producto3.setStockActual(8);
+		//producto3.setStockActual(8);
 		
 		System.out.println("----------PRODUCTO 1----------");
 		System.out.println("El nombre del producto 1 es: "+producto1.getNombre());

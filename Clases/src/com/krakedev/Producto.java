@@ -5,31 +5,44 @@ public class Producto {
 	private String descripcion;
 	private float precio;
 	private int stockActual;
-	
-	//getters and setters
+
+	// cosntructor
+	public Producto(String nombre, int stockActual) {
+		this.nombre = nombre;
+		this.stockActual = stockActual;
+	}
+
+	// getters and setters
 	public String getNombre() {
 		return nombre;
 	}
+
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+
 	public String getDescripcion() {
 		return descripcion;
 	}
+
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
 	}
+
 	public float getPrecio() {
 		return precio;
 	}
+
 	public void setPrecio(float precio) {
 		this.precio = precio;
 	}
+
 	public int getStockActual() {
 		return stockActual;
 	}
+
 	public void setStockActual(int stockActual) {
 		this.stockActual = stockActual;
 	}
-	
+
 }
