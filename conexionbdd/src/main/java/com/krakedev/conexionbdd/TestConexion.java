@@ -24,9 +24,9 @@ public class TestConexion {
 					"insert into personas(cedula, nombre, apellido, estatura, cantidad_ahorrada, "
 					+ "numero_hijos, fecha_nacimiento, hora_nacimiento)"
 							+ "values(?,?,?,?,?,?,?,?)");
-			ps.setString(1, "1718123266");
-			ps.setString(2, "Esteban");
-			ps.setString(3, "Sanchez");
+			ps.setString(1, "0200311098");
+			ps.setString(2, "Manuel");
+			ps.setString(3, "Medrano");
 			ps.setDouble(4, 1.65);
 			ps.setBigDecimal(5, new BigDecimal(2300));
 			ps.setInt(6, 2);
