@@ -9,8 +9,19 @@ public class Usuario {
 	private String tipoCuenta;
 	private BigDecimal limiteCredito;
 	
+	public Usuario() {
+		
+	}
 	
 	
+	@Override
+	public String toString() {
+		return "Usuario [cedula=" + cedula + ", nombre=" + nombre + ", apellido=" + apellido + ", tipoCuenta="
+				+ tipoCuenta + ", limiteCredito=" + limiteCredito + "]";
+	}
+
+
+
 	public Usuario(String cedula) {
 		super();
 		this.cedula = cedula;

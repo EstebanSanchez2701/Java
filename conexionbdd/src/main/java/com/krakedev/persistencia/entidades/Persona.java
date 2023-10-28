@@ -38,6 +38,16 @@ public class Persona {
 		this.apellido = apellido;
 		this.fechaNacimiento = fechaNacimiento;
 	}
+	
+	
+	@Override
+	public String toString() {
+		return "Persona [cedula=" + cedula + ", nombre=" + nombre + ", apellido=" + apellido + ", estadoCivil="
+				+ estadoCivil + ", numeroHijos=" + numeroHijos + ", estatura=" + estatura + ", cantidadAhorrada="
+				+ cantidadAhorrada + ", fechaNacimiento=" + fechaNacimiento + ", horaNacimiento=" + horaNacimiento
+				+ "]";
+	}
+
 	/**
 	 * @return the cedula
 	 */
